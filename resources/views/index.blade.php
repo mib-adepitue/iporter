@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>iPorter</title>
+  <title>gomblok</title>
 
   <!-- Bootstrap core CSS -->
   <link href="{{asset('iporter/vendor/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
@@ -102,7 +102,7 @@
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="{{asset('iporter/img/mm.jpg')}}" alt="Gambar - 1" class="d-block w-100">
+        <img src="{{asset('iporter/img/3.jpg')}}" alt="Gambar - 1" class="d-block w-100">
         <div class="carousel-caption">
           <h1 class="mb-5">Pengen Makan Tapi Mager? <br>iPorter aja!</h1>
           <p>

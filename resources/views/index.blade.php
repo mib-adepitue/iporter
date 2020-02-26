@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 
-<head>
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
-  <meta charset="utf-8">
+  
   <meta name="viewport" c ontent="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
@@ -81,7 +81,7 @@
             <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
               @csrf
             </form>
-            <a class="dropdown-item" href="{{ route('profile') }}">
+            <a class="dropdown-item" href="{{ route('profile.show') }}">
               Profil
             </a>
           </div>
